@@ -1,0 +1,24 @@
+1. mkdir Assignment1
+
+2. /bin/bash
+
+3. uid=1204(aayushsp24) gid=1204(aayushsp24) groups=1204(aayushsp24),78(S78)
+
+4. chmod u-w myDir
+	I can cd into it. I can ls and ls -l into it. I cannot create files:
+	touch: cannot touch 'me.txt': Permission denied
+
+6. touch myFile.txt
+	mv myFile.txt /mnt/scratch/SP24_CS131_Jyotika/aayushsp24/CS131/Assignment1/myDir3
+
+7. free mebibytes              
+	total        used        free      shared  buff/cache   available
+	Mem:       73080640    33267520    20237056     3599168    19576064    34720704
+	Swap:       4218816           0     4218816
+
+8. uname -a
+	Linux sjsu.pic2.isv.ihost.com 4.18.0-372.32.1.el8_6.ppc64le #1 SMP Fri Oct 7 11:37:39 EDT 2022 ppc64le ppc64le ppc64le GNU/Linux
+	found in …/etc/os-release
+
+9. The permission to all users given OS information is read
+
