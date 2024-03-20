@@ -1,0 +1,56 @@
+1. a. We are trying to find all files in /etc folder, then save that list to one.txt, and redirect and save to two.txt
+   b. one.txt contains all files in /etc foler
+      two.txt contains all files that were denied
+2. May,12  9
+   Sep,2  8
+   Nov,21  8
+   commands:
+     cut -d',' -f21,22 "Global YouTube Statistics.csv" | sed '1d' | sort > sorted_data.txt
+     --> this command extracts columns from the file, -d',' specifies the spearation is a comma,
+         and -f2,3 gets the month and year. sed '1d' removes header.
+         sort > sorted.txt stores the sorted fle into sorted.txt
+     uniq -c sorted_data.txt | sort -nr > counted_data.txt
+     --> uniq -c counts the unique month-year combbinations. sort -nr sorts in 
+         reverse numerical order
+     awk '{print $2, $3, $1}' counted_data.txt | head -n 3
+     --> awk prints the 2nd and 3rd columns and the counts
+         head -n 3 only shows the top 3 month-year combos
+3. ps -u aayushsp24
+    PID TTY          TIME CMD
+3574457 ?        00:00:03 systemd
+3574459 ?        00:00:00 (sd-pam)
+3574465 ?        00:00:00 sshd
+3574468 pts/42   00:00:00 bash
+3604005 pts/42   00:00:00 ps
+
+4. When vi is open, the process ID includes another sshd, bash, and vim
+    PID TTY          TIME CMD
+3574457 ?        00:00:04 systemd
+3574459 ?        00:00:00 (sd-pam)
+3574465 ?        00:00:00 sshd
+3574468 pts/42   00:00:00 bash
+3607298 ?        00:00:00 sshd
+3607301 pts/1    00:00:00 bash
+3607464 pts/1    00:00:00 vim
+3607525 pts/42   00:00:00 ps
+   Process ID for vim is 3607464
+
+After quiutting vi, this is the output:
+    PID TTY          TIME CMD
+3574457 ?        00:00:04 systemd
+3574459 ?        00:00:00 (sd-pam)
+3574465 ?        00:00:00 sshd
+3574468 pts/42   00:00:00 bash
+3607298 ?        00:00:00 sshd
+3607301 pts/1    00:00:00 bash
+3607802 pts/42   00:00:00 ps
+
+vim went away, but the new bash and sshd are still there
+
+5. pidof systemd
+3854249 3607963 3607954 3607940 3607937 3607926 3603171 3596400 3574457 3571556 
+3523835 3491745 3433756 3312757 3304023 2808486 2492008 2422345 
+2379540 2248654 2073814 2060795 105881 86087 1
+
+6. ps aux --> shows process statuses, for all users (a), with info about the processes (u),
+   and shows the running and non-running processes (x)

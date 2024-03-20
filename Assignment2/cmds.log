@@ -1,0 +1,634 @@
+    1  wget www.github.com
+    2  a=1
+    3  b=2
+    4  echo $a
+    5  a=$(b+1)
+    6  a="$b+1)
+    7  end
+    8  quit
+    9  end
+   10  stop
+   11  QUIT
+   12  end
+   13  hello
+   14  exit
+   15  EXIT
+   16  a=b
+   17  cd ~/.ssh && ssh-keygen
+   18  mkdir ~/.ssh
+   19  cd ~/.ssh && ssh-keygen
+   20  cat id_rsa.puub
+   21  cat id_rsa.pub
+   22  ssh-keygen
+   23  cat id_rsa.pub
+   24  git remote add origin git@github.com:eyeOosh/sampleProject.git
+   25  git remote add origin https://github.com/eyeOosh/sampleProject.git
+   26  git branch -M main
+   27  git push -u origin main
+   28  git init
+   29  git remote add origin https://github.com/eyeOosh/sampleProject.git
+   30  git branch -M main
+   31  git push -u origin main
+   32  git commit -m "helloW"
+   33  git config --global user.name "eyeOosh"
+   34  git commit -m "helloW"
+   35  git add .
+   36  git status
+   37  git push --set-upstream origin master
+   38  git push --set-upstream origin main
+   39  wget githhub.com
+   40  ls
+   41  mkdir cs131
+   42  ls
+   43  git init
+   44  git help
+   45  git remote add origin git@github.com:eyeOosh/cs131.git
+   46  git status
+   47  git commit -m "<Some Message>"
+   48  git push --set-upstream origin master
+   49  git commit
+   50  mkdir "Worksheet1"
+   51  ls
+   52  rm Worksheet1/
+   53  rm Worksheet1
+   54  cd cs131/
+   55  lls
+   56  ls
+   57  mkdir Worksheet1
+   58  history > cmds.log
+   59  echo history
+   60  echo $history
+   61  wget github.com
+   62  history > cmds.log
+   63  echo $history
+   64  git push
+   65  git push --set-upstream origin master
+   66  git statuus
+   67  git status
+   68  git push --set-upstream origin main
+   69  git push --set-upstream origin master
+   70  git push --set-upstream origin
+   71  git push --set-upstream origin cs131
+   72  git push --set-upstream origin master
+   73  git init
+   74  ls
+   75  rm cmds.log
+   76  ls
+   77  wget github.com
+   78  ls
+   79  cd Worksheet1/
+   80  ls
+   81  wget github.com
+   82  ls
+   83  history > cmds.log
+   84  ls
+   85  git push --set-upstream origin master
+   86  git commit
+   87  git add .
+   88  git commit -m "First commit"
+   89  git push --set-upstream origin master
+   90  git push origin main
+   91  git push -u
+   92  git push .
+   93  git push
+   94  git push cmds.log
+   95  git push --set-upstream cmds.log master
+   96  git show-ref
+   97  git push cmds.log master
+   98  ls
+   99  git push cs131 master
+  100  cd ..
+  101  ls
+  102  cd ..
+  103  ls
+  104  rm Worksheet1/
+  105  del Worksheet1/
+  106  rm index.html
+  107  rm index.html.1 
+  108  ls
+  109  cd cs131/
+  110  ls
+  111  rm index.html
+  112  rm index.html.1 
+  113  cd Worksheet1/
+  114  ls
+  115  rm index.html 
+  116  git -help
+  117  git help
+  118  git branch
+  119  git log
+  120  git init
+  121  git show
+  122  git status
+  123  git add .
+  124  git status
+  125  git commit -m "cmds added"
+  126  git push
+  127  git push --set-upstream cmds.log master
+  128  git status
+  129  git show
+  130  git push origin master
+  131  cd ..
+  132  git push origin master
+  133  cd ..
+  134  lls
+  135  ls
+  136  cd aayushsp24/
+  137  ls
+  138  git status
+  139  git add cs131/
+  140  git status
+  141  cd cs131/
+  142  git status
+  143  git add .
+  144  git status
+  145  ls
+  146  git push origin master
+  147  cd ..
+  148  git init --bare cs131.git
+  149  git remote add origin /mnt/scratch/SP24_CS131_Jyotika/aayushsp24/cs131.git/
+  150  git push origin master
+  151  git status
+  152  git add .
+  153  git all -all
+  154  git add -all
+  155  git add --all
+  156  ls
+  157  rm cs131.git
+  158  git status
+  159  git push --set-upstream cmds.log master
+  160  git push --set-upstream origin master
+  161  ls
+  162  cd cs131
+  163  ls
+  164  git init
+  165  git add README.md
+  166  git commit -m "first commit"
+  167  git branch -M main
+  168  git remote add origin https://github.com/eyeOosh/cs131.git
+  169  git push -u origin main
+  170  git remote add origin https://github.com/eyeOosh/cs131.git
+  171  cd ..
+  172  ls
+  173  rm -rf .git
+  174  ls
+  175  rm -rf cs131.git
+  176  ls
+  177  rm -rf cs131
+  178  rm -rf Worksheet1/
+  179  ls
+  180  git init
+  181  git add README.md
+  182  git remote add origin https://github.com/eyeOosh/cs131.git
+  183  ls
+  184  git show
+  185  git status
+  186  git init
+  187  mkdir cs131
+  188  ls
+  189  cd cs131/
+  190  git init
+  191  touch text.txt
+  192  ls
+  193  git status
+  194  wget github.com
+  195  ls
+  196  git statuus
+  197  git status
+  198  git commit -m "first commit ever!"
+  199  git add .
+  200  git statuus
+  201  git status
+  202  git commit -m "first commit ever!"
+  203  git checkout -b aayushBranch
+  204  git branchh
+  205  bit branch
+  206  git branch
+  207  git remote add origin https://github.com/eyeOosh/cs131.git
+  208  git branch -M main
+  209  git push -u origin maingit remote add origin https://github.com/eyeOosh/cs131.git
+  210  git branch -M main
+  211  git push -u origin main
+  212  git remote add origin https://github.com/eyeOosh/cs131.git
+  213  git branch -M aayushBranch
+  214  git push -u origin main
+  215  git push -u origin aayushBranch
+  216  git push -u origin master
+  217  git config --global user.name "eyeOosh"
+  218  git push -u origin master
+  219  git branch
+  220  ls
+  221  history > cmds.log
+  222  ls
+  223  git show cmds.log
+  224  git status
+  225  git add .
+  226  git commit -m "added cmds"
+  227  git push -u origin aayushBranch 
+  228  ls
+  229  cd ..
+  230  ls
+  231  cd cs131/
+  232  ls
+  233  git init
+  234  git add .
+  235  git status
+  236  git config --global user.name "eyeOosh"
+  237  cd ~/.ssh
+  238  ls
+  239  git remote add origin https://github.com/eyeOosh/cs131.git
+  240  git commit -m "first attempt"
+  241  git config --global user.name "eyeOosh"
+  242  ls
+  243  git push --set-upstream origin master
+  244  cd ..
+  245  ls
+  246  cd .ssh/
+  247  git remote add origin https://github.com/eyeOosh/cs131.git
+  248  ls
+  249  mkdir Worksheet1
+  250  ls
+  251  cd Worksheet1/
+  252  history > cmds.log
+  253  git status
+  254  git add .
+  255  git status
+  256  git commit -m "first attempt"
+  257  git push --set-upstream origin master
+  258  ssh-keygen
+  259  ls
+  260  echo $history
+  261  git remote add origin git@github.com:eyeOosh/cs131.git
+  262  cd cs131/
+  263  git remote add origin git@github.com:eyeOosh/cs131.git
+  264  git commit
+  265  ls
+  266  history > cmds.log
+  267  ls
+  268  git init
+  269  git add .
+  270  ls
+  271  git status
+  272  git commit -m "second"
+  273  git config --global user.name "eyeOosh"
+  274  git statuus
+  275  git status
+  276  git push -u origin aayushBranch 
+  277  cd..
+  278  cd ..
+  279  ls
+  280  ls .
+  281  cd ..
+  282  cd aayushsp24/
+  283  cd ./ssh
+  284  cd ~/.ssh
+  285  ls
+  286  rm Worksheet1/
+  287  rm -rf Worksheet1/
+  288  ls
+  289  mkdir CS131
+  290  ls
+  291  cd CS131/
+  292  ls
+  293  mkdir Wksh1
+  294  ls
+  295  cd Wksh1/
+  296  history > cmds.log
+  297  git status
+  298  git add -a
+  299  git add --all
+  300  git status
+  301  git commit -m "first cmds log commit"
+  302  wget github.com
+  303  ls
+  304  git init
+  305  git branch
+  306  cd ..
+  307  ls
+  308  git init
+  309  git status
+  310  git add .
+  311  git add Wksh1/
+  312  cd Wksh1/
+  313  rm -rf .git
+  314  ls
+  315  cd ..
+  316  git add Wksh1/
+  317  git status
+  318  git commit -m "cs131 first commit"
+  319  git config --global user.name "eyeOosh"
+  320  git config --global user.email aayushkumar1824@gmail.com
+  321  git commit --amend --reset-author
+  322  ls
+  323  rm -rf cs131/
+  324  ls
+  325  dir
+  326  ls
+  327  echo "# CS131" >> README.md
+  328  ls
+  329  git init
+  330  git branch -M main
+  331  git remote add origin https://github.com/eyeOosh/CS131.git
+  332  ls
+  333  git push -u origin main
+  334  ls
+  335  cd ..
+  336  ls
+  337  cd aarushisp24/
+  338  cd aayushsp24/
+  339  ls
+  340  rm README.md 
+  341  ls
+  342  git remote add origin git@github.com:eyeOosh/CS131.git
+  343  git remote add origin git@github.com:eyeOosh/CS121.git
+  344  git remote remove origin
+  345  git remote add origin git@github.com:eyeOosh/CS131.git
+  346  ls
+  347  git commit -m "<Some Message>"
+  348  git push --set-upstream origin main
+  349  git branch -b
+  350  git branch -l
+  351  git branch
+  352  git branch --show-current
+  353  git branch --list
+  354  git checkouut -b master
+  355  git checkout -b master
+  356  git branch --list
+  357  git branch --show-current
+  358  git push origin master
+  359  gh auth login
+  360  git init
+  361  ls -Itr
+  362  ls
+  363  mkdir cs131
+  364  ls -Itr
+  365  cd cs131/
+  366  ls
+  367  touch cmds.log
+  368  git init
+  369  git config --global user.name "eyeOosh"
+  370  git config --global user.name eyeOosh
+  371  ls
+  372  history > cmds.log
+  373  ls
+  374  git add .
+  375  git status
+  376  rm cmds.log 
+  377  ls
+  378  mkdir Worksheet1
+  379  ls
+  380  ls -Itr
+  381  cd ..
+  382  ls
+  383  git clone https://github.com/eyeOosh/CS131.git
+  384  cd CS131/
+  385  mkdir Worksheet1
+  386  ls
+  387  history > cmds.log
+  388  ls
+  389  rm cmds.log 
+  390  ls Worksheet1/
+  391  history > cmds.log
+  392  ls
+  393  rm cmds.log 
+  394  cd Worksheet1/
+  395  ls
+  396  history > cmds.log
+  397  ls
+  398  git add cmds.log
+  399  git commit -m "Add history of commands"
+  400  git push origin master
+  401  git push origin main
+  402  cd ..
+  403  git status
+  404  git add CS131/
+  405  git commit
+  406  ls
+  407  cd CS131/
+  408  git config --global user.name "eyeOosh"
+  409  git status
+  410  git add .
+  411  git status
+  412  ls
+  413  git commit -m ""
+  414  git push --set-upstream origin master
+  415  git push --set-upstream origin main
+  416  lls
+  417  ls
+  418  cd CS131/
+  419  ls
+  420  cd Worksheet1/
+  421  ls
+  422  cd ..
+  423  wget github.com
+  424  ls
+  425  git remote add origin https://github.com/eyeOosh/CS131.git
+  426  git push origin main
+  427  git init
+  428  git status
+  429  git add .
+  430  git commit -m "woohoo first"
+  431  git push origin main 
+  432  cd ..
+  433  ls
+  434  rm -rf cs131/
+  435  cd ~/.ssh
+  436  ssh-keygen
+  437  cat id_rsa.pub
+  438  git config --global uuser.name "eyeOosh"
+  439  cat id_rsa.pub
+  440  git config --global user.email aayushkumar1824@gmail.com
+  441  git config --global uuser.name eyeOosh
+  442  git config --global user.name eyeOosh
+  443  git remote add origin git@github.com:eyeOosh/cs131.git
+  444  git remove remore origin
+  445  git remove remote origin
+  446  git remote remove origin
+  447  git remote add origin git@github.com:eyeOosh/cs131.git
+  448  git remote origin
+  449  git remote set-branches 
+  450  git remote get-url 
+  451  git remote get-url --all
+  452  git remote origin
+  453  git init
+  454  git config --global user.name eyeOosh
+  455  git remote set-url origin git@github.com:eyeOosh/CS131.git
+  456  git config --global credential.helper store
+  457  ssh -T git@github.com
+  458  cd ..
+  459  ls
+  460  ssh aayushsp24@172.20.25.9
+  461  ls
+  462  git config --global user.name "eyeOosh"
+  463  git init
+  464  git config --global user.name "eyeOosh"
+  465  git coonfig --global uuser.email "aayushkumar1824@gmail.com"
+  466  git cconfig --global uuser.email "aayushkumar1824@gmail.com"
+  467  git config --global uuser.email "aayushkumar1824@gmail.com"
+  468  ls _Itr
+  469  ls -Itr
+  470  cd CS131/
+  471  git init
+  472  git add .
+  473  git status
+  474  git branch --unset-upstream
+  475  git status
+  476  git branch
+  477  git remote add origin git@github.com:eyeOosh/CS131.git
+  478  git remote remove origin
+  479  git remote add origin git@github.com:eyeOosh/CS131.git
+  480  git commit -m "message"
+  481  git push --set-upstream main
+  482  git push --set-upstream master
+  483  git push --set-upstream 
+  484  git push --set-upstream origin main
+  485  ls
+  486  exiit
+  487  exit
+  488  ping 172.20.25.9
+  489  ls
+  490  cd CS131/
+  491  ls
+  492  mkdir Assignment1
+  493  ls
+  494  cd Assignment1/
+  495  ls
+  496  echo $SHELL
+  497  echo '$SHELL'
+  498  echo "$SHELL"
+  499  echo $HOME
+  500  id
+  501  id -a
+  502  cd ..
+  503  ls
+  504  git init
+  505  git config --global uuser.email "aayushkumar1824@gmail.com"
+  506  git config --global user.email "aayushkumar1824@gmail.com"
+  507  cdd Assignment1/
+  508  ls
+  509  cd Assignment1/
+  510  ls
+  511  mkdir myDir
+  512  ls
+  513  chmod u-w myDir
+  514  ls
+  515  cd myDir/
+  516  ls
+  517  ls -l
+  518  ls -i
+  519  cat me.txt
+  520  me.txt
+  521  touch me.txt
+  522  cd ..
+  523  mkdir myDir2
+  524  mkdir myDir3
+  525  lls
+  526  ls
+  527  cd myDir2
+  528  ls
+  529  touch myyFile.txt
+  530  ls
+  531  mv myyFile.txt myDir3
+  532  ls
+  533  cd ..
+  534  ls
+  535  cd myDir3
+  536  ls
+  537  cd ..
+  538  cd myDir2
+  539  ls
+  540  rm myDir3
+  541  ls
+  542  touch myFile.txt
+  543  ls
+  544  mv myFile.txt /myDir3
+  545  cd ..
+  546  lls myDir3
+  547  ls myDir3
+  548  cd myDir3
+  549  ls
+  550  echo "$PWD/filename"
+  551  ls
+  552  cd ..
+  553  cd myDir2
+  554  ls
+  555  mv myFile.txt /mnt/scratch/SP24_CS131_Jyotika/aayushsp24/CS131/Assignment1/myDir3
+  556  ls
+  557  cd ..
+  558  cd myDir3
+  559  ls
+  560  free
+  561  free mebibytes
+  562  man free
+  563  uname -a
+  564  uname
+  565  uname -r
+  566   _rwxrwxrwx 1 owner:group
+  567  rwx
+  568  _rwx
+  569  cd ..
+  570  script
+  571  touch Assignment1.txt
+  572  sudo nano Assignment1.txt 
+  573  nano Assignment1.txt
+  574  cat Assignment1.txt 
+  575  history > cmds.log
+  576  nano cmds.log 
+  577  nano Assignment1.txt 
+  578  ls
+  579  rm typescript 
+  580  ls
+  581  cd ..
+  582  git status
+  583  git add .
+  584  git status
+  585  git commit -m "Assignment 1"
+  586  git status
+  587  git branch
+  588  git push -set--upstream origin main
+  589  git push --set-upstream origin main
+  590  ls
+  591  cd CS131/
+  592  ls
+  593  mkdir Assignment2
+  594  ls
+  595  cd Assignment2
+  596  touch Assignment2.txt
+  597  ls
+  598  cat Assignment2.txt 
+  599  cd ..
+  600  ls
+  601  cd Assignment2
+***1  602  find /etc -type f > one.txt 2> two.txt
+  603  ls
+***1  604  cat one.txt 
+  605  cd ..
+  606  cd Assignment2
+  607  touch Assignment2.txt 
+  608  vi Assignment2.txt 
+  609  cat Assignment2.txt 
+***1  610  cat two.txt 
+  611  nano Assignment2.txt 
+  612  cat Assignment2.txt 
+***2  613  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  614  cat Global\ YouTube\ Statistics.csv 
+  615  cut -d',' -f2,3 Global\ YouTube\ Statistics.csv | sed '1d' | sort > sorted_data.txt
+  616  uniq -c sorted_data.txt | sort -nr > counted_data.txt
+  617  head -n 3 counted_data.txt
+  618  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  619  cut -d',' -f2,3 "Global YouTube Statistics.csv" | sed '1d' | sort > sorted_data.txt
+  620  uniq -c sorted_data.txt | sort -nr > counted_data.txt
+  621  awk '{print $2, $3, $1}' counted_data.txt | head -n 3
+***2  622  cut -d',' -f21,22 "Global YouTube Statistics.csv" | sed '1d' | sort > sorted_data.txt
+***2  623  uniq -c sorted_data.txt | sort -nr > counted_data.txt
+***2  624  awk '{print $2, $3, $1}' counted_data.txt | head -n 3
+  625  whoamii
+  626  whoami
+***3  627  ps -u aayushsp24
+***5  628  pidof systemd
+***6  629  ps aux
+  630  cat Assignment2.txt 
+  631  cat cmds
+  632  cat cmds.log
+  633  ls
+  634  history > cmds.log
