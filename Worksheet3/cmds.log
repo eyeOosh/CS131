@@ -1,0 +1,59 @@
+  667  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  668  ls
+  669  cat Global\ YouTube\ Statistics.csv 
+  670  filtered_data=$(awk -F ',' '$8=="United States" || $8=="United Kingdom" || $8=="India" {print}' Global YouTube Statistics.csv)
+  671  sorted_data=$(echo "$filtered_data" | sort -t',' -k3 -nr)
+  672  highest_earners=$(echo "$sorted_data" | awk -F ',' '!seen[$8]++' | awk -F ',' '{print "Highest earner from " $8 ": " $2 " - $" $3}')
+  673  echo "$highest_earners"
+  674  ls
+  675  echo "$highest_earners"
+  676  grep -E 'United States|United Kingdom|India' data.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }'
+  677  ls
+  678  grep -E 'United States|United Kingdom|India' data.csv | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }'
+  679  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv 
+  680  sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }'
+  681  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }'
+  682  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '!seen[$5]++' | awk -F',' '{ print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }'
+  683  grep -E 'Sports|Education|Entertainment' data.csv |
+  684  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '!seen[$5]++ && count[$5]++ < 3' | awk -F',' '{ print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }'
+  685  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  686             $5 == "Education" && education_count < 3 { print "Highest subscribed channel in Education: " $2 " - Subscribers: " $4; education_count++ }
+  687             $5 == "Entertainment" && entertainment_count < 3 { print "Highest subscribed channel in Entertainment: " $2 " - Subscribers: " $4; entertainment_count++ }'            sports_count=0 education_count=0 entertainment_count=0
+  688  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '!seen[$5]++' | awk -F',' '{ print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }'
+  689  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  690             $5 == "Education" && education_count < 3 { print "Highest subscribed channel in Education: " $2 " - Subscribers: " $4; education_count++ }
+  691             $5 == "Entertainment" && entertainment_count < 3 { print "Highest subscribed channel in Entertainment: " $2 " - Subscribers: " $4; entertainment_count++ }'            sports_count=0 education_count=0 entertainment_count=0
+  692  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  693             $5 == "Education" && education_count < 3 { print "Highest subscribed channel in Education: " $2 " - Subscribers: " $4; education_count++ }
+  694             $5 == "Entertainment" && entertainment_count < 3 { print "Highest subscribed channel in Entertainment: " $2 " - Subscribers: " $4; entertainment_count++ }'            sports_count=0 education_count=0 entertainment_count=0 | awk '!seen[$5]++'
+  695  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }'
+  696  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }' | head -n 3
+  697  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  698             $5 == "Education" && education_count < 3 { print "Highest subscribed channel in Education: " $2 " - Subscribers: " $4; education_count++ }
+  699             $5 == "Entertainment" && entertainment_count < 3 { print "Highest subscribed channel in Entertainment: " $2 " - Subscribers: " $4; entertainment_count++ }'            sports_count=0 education_count=0 entertainment_count=0 | awk '!seen[$5]++'
+  700  ls
+  701  cd CS131/
+  702  ls
+  703  cd Worksheet3
+  704  ls
+  705             $5 == "Education" && education_count < 3 { print "Highest subscribed channel in Education: " $2 " - Subscribers: " $4; education_count++ }
+  706  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }' | head -n 3
+  707  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  708  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }' | head -n 3
+  709  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+yes
+twi
+light
+exit
+  710  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '!seen[$5]++' | awk -F',' '{ print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }'
+  711  grep -E 'Sports|Education|Entertainment' "Global YouTube Statistics.csv" | sort -t',' -k4,4nr |  awk -F',' '$5 != "" && !seen[$5]++' |  awk -F',' '$5=="Sports" || $5=="Education" || $5=="Entertainment" { print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }' 
+  712  grep -E 'Sports|Education|Entertainment' "Global YouTube Statistics.csv" | sort -t',' -k4,4nr |  awk -F',' '$5 != "" && !seen[$5]++' |  awk -F',' '$5=="Sports" || $5=="Education" || $5=="Entertainment" { print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }' > ws3.txt
+  713  ls
+  714  cat ws3.txt 
+  715  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '!seen[$5]++' | awk -F',' '{ print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }' >> ws3.txt
+  716  cat ws3.txt 
+  717  nano ws3.txt 
+  718  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }' | head -n 3
+  719  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }' | head -n 3 >> ws3.txt
+  720  cat ws3.txt 
+  721  history > cmds.log
