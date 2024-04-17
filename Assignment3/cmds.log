@@ -1,0 +1,56 @@
+  933  cd CS131/
+  934  ls
+  935  mkdir Assignment3
+  936  ls
+  937  ls Assignment3
+  938  ls
+  939  cd Assignment3
+  940  ls
+  941  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
+  942  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
+  943  ls
+  944  cd ..
+  945  git statis
+  946  git status
+  947  git add .
+  948  giit status
+  949  git status
+  950  git commit -m "just added files'
+  951  git commit -m "just added files"
+  952  git push
+  953  git status
+  954  ls
+  955  cd CS131/
+  956  ls
+  957  cd Assignment3
+  958  ls
+  959  awk 'END {print NR}' last.fake 
+  960  touch Assignment3.txt
+  961  nano Assignment3.txt 
+  964  ls
+***1  965  awk 'END {print NR}' lastsp24.fake
+  966  nano Assignment3.txt 
+  967  cat lastsp24.fake 
+  968  grep 'Sun' lastsp24.fake
+***2  969  grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq
+  970  nano Assignment3.txt 
+  971  nano Assignment3.txt
+  972  ls
+3***  973  awk '{split($4, a, ":"); if ((a[1] >= 23 || a[1] <= 4) && $5 ~ /still/) print $1}' lastsp24.fake | sort | uniq
+  974  awk 'if ((a[1] >= 23 && a[1] <= 4) && $5) print $1}' lastsp24.fake | sort | uniq
+  975  awk '{split($4, a, ":"); if (a[1] >= 23 || a[1] <= 4) print $1}' lastsp24.fake | sort | uniq
+  976  nano Assignment3.txt 
+  977  awk '{split($4, a, ":"); if (a[1] >= 5 && a[1] <= 9) print $1}' lastsp24.fake | sort | uniq
+4***  978  awk '{split($4, a, ":"); if (a[1] >= 5 || a[1] <= 9) print $1}' lastsp24.fake | sort | uniq
+  979  nano Assignment3.txt 
+  980  awk '$1 ~ /^t/' lastsp24.fake
+  981  awk '$1 ~ /^t/' lastsp24.fake | sort | uniq
+5***  982  awk '{print $1}' lastsp24.fake | awk '$1 ~ /^t/' | sort | uniq
+  983  nano Assignment3.txt 
+  984  ls
+6***  985  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+  986  nano Assignment3.txt 
+  987  ls
+7***  988  sed 's/[a-zA-Z0-9[:space:]]//g' passwd.fake | sort -u
+  989  nano Assignment3.txt 
+  990  history > cmds.log
