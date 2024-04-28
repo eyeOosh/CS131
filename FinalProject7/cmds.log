@@ -1,0 +1,1000 @@
+   91  git init
+   92  git add .
+   93  git status
+   94  git config --global user.name "eyeOosh"
+   95  cd ~/.ssh
+   96  ls
+   97  git remote add origin https://github.com/eyeOosh/cs131.git
+   98  git commit -m "first attempt"
+   99  git config --global user.name "eyeOosh"
+  100  ls
+  101  git push --set-upstream origin master
+  102  cd ..
+  103  ls
+  104  cd .ssh/
+  105  git remote add origin https://github.com/eyeOosh/cs131.git
+  106  ls
+  107  mkdir Worksheet1
+  108  ls
+  109  cd Worksheet1/
+  110  history > cmds.log
+  111  git status
+  112  git add .
+  113  git status
+  114  git commit -m "first attempt"
+  115  git push --set-upstream origin master
+  116  ssh-keygen
+  117  ls
+  118  echo $history
+  119  git remote add origin git@github.com:eyeOosh/cs131.git
+  120  cd cs131/
+  121  git remote add origin git@github.com:eyeOosh/cs131.git
+  122  git commit
+  123  ls
+  124  history > cmds.log
+  125  ls
+  126  git init
+  127  git add .
+  128  ls
+  129  git status
+  130  git commit -m "second"
+  131  git config --global user.name "eyeOosh"
+  132  git statuus
+  133  git status
+  134  git push -u origin aayushBranch 
+  135  cd..
+  136  cd ..
+  137  ls
+  138  ls .
+  139  cd ..
+  140  cd aayushsp24/
+  141  cd ./ssh
+  142  cd ~/.ssh
+  143  ls
+  144  rm Worksheet1/
+  145  rm -rf Worksheet1/
+  146  ls
+  147  mkdir CS131
+  148  ls
+  149  cd CS131/
+  150  ls
+  151  mkdir Wksh1
+  152  ls
+  153  cd Wksh1/
+  154  history > cmds.log
+  155  git status
+  156  git add -a
+  157  git add --all
+  158  git status
+  159  git commit -m "first cmds log commit"
+  160  wget github.com
+  161  ls
+  162  git init
+  163  git branch
+  164  cd ..
+  165  ls
+  166  git init
+  167  git status
+  168  git add .
+  169  git add Wksh1/
+  170  cd Wksh1/
+  171  rm -rf .git
+  172  ls
+  173  cd ..
+  174  git add Wksh1/
+  175  git status
+  176  git commit -m "cs131 first commit"
+  177  git config --global user.name "eyeOosh"
+  178  git config --global user.email aayushkumar1824@gmail.com
+  179  git commit --amend --reset-author
+  180  ls
+  181  rm -rf cs131/
+  182  ls
+  183  dir
+  184  ls
+  185  echo "# CS131" >> README.md
+  186  ls
+  187  git init
+  188  git branch -M main
+  189  git remote add origin https://github.com/eyeOosh/CS131.git
+  190  ls
+  191  git push -u origin main
+  192  ls
+  193  cd ..
+  194  ls
+  195  cd aarushisp24/
+  196  cd aayushsp24/
+  197  ls
+  198  rm README.md 
+  199  ls
+  200  git remote add origin git@github.com:eyeOosh/CS131.git
+  201  git remote add origin git@github.com:eyeOosh/CS121.git
+  202  git remote remove origin
+  203  git remote add origin git@github.com:eyeOosh/CS131.git
+  204  ls
+  205  git commit -m "<Some Message>"
+  206  git push --set-upstream origin main
+  207  git branch -b
+  208  git branch -l
+  209  git branch
+  210  git branch --show-current
+  211  git branch --list
+  212  git checkouut -b master
+  213  git checkout -b master
+  214  git branch --list
+  215  git branch --show-current
+  216  git push origin master
+  217  gh auth login
+  218  git init
+  219  ls -Itr
+  220  ls
+  221  mkdir cs131
+  222  ls -Itr
+  223  cd cs131/
+  224  ls
+  225  touch cmds.log
+  226  git init
+  227  git config --global user.name "eyeOosh"
+  228  git config --global user.name eyeOosh
+  229  ls
+  230  history > cmds.log
+  231  ls
+  232  git add .
+  233  git status
+  234  rm cmds.log 
+  235  ls
+  236  mkdir Worksheet1
+  237  ls
+  238  ls -Itr
+  239  cd ..
+  240  ls
+  241  git clone https://github.com/eyeOosh/CS131.git
+  242  cd CS131/
+  243  mkdir Worksheet1
+  244  ls
+  245  history > cmds.log
+  246  ls
+  247  rm cmds.log 
+  248  ls Worksheet1/
+  249  history > cmds.log
+  250  ls
+  251  rm cmds.log 
+  252  cd Worksheet1/
+  253  ls
+  254  history > cmds.log
+  255  ls
+  256  git add cmds.log
+  257  git commit -m "Add history of commands"
+  258  git push origin master
+  259  git push origin main
+  260  cd ..
+  261  git status
+  262  git add CS131/
+  263  git commit
+  264  ls
+  265  cd CS131/
+  266  git config --global user.name "eyeOosh"
+  267  git status
+  268  git add .
+  269  git status
+  270  ls
+  271  git commit -m ""
+  272  git push --set-upstream origin master
+  273  git push --set-upstream origin main
+  274  lls
+  275  ls
+  276  cd CS131/
+  277  ls
+  278  cd Worksheet1/
+  279  ls
+  280  cd ..
+  281  wget github.com
+  282  ls
+  283  git remote add origin https://github.com/eyeOosh/CS131.git
+  284  git push origin main
+  285  git init
+  286  git status
+  287  git add .
+  288  git commit -m "woohoo first"
+  289  git push origin main 
+  290  cd ..
+  291  ls
+  292  rm -rf cs131/
+  293  cd ~/.ssh
+  294  ssh-keygen
+  295  cat id_rsa.pub
+  296  git config --global uuser.name "eyeOosh"
+  297  cat id_rsa.pub
+  298  git config --global user.email aayushkumar1824@gmail.com
+  299  git config --global uuser.name eyeOosh
+  300  git config --global user.name eyeOosh
+  301  git remote add origin git@github.com:eyeOosh/cs131.git
+  302  git remove remore origin
+  303  git remove remote origin
+  304  git remote remove origin
+  305  git remote add origin git@github.com:eyeOosh/cs131.git
+  306  git remote origin
+  307  git remote set-branches 
+  308  git remote get-url 
+  309  git remote get-url --all
+  310  git remote origin
+  311  git init
+  312  git config --global user.name eyeOosh
+  313  git remote set-url origin git@github.com:eyeOosh/CS131.git
+  314  git config --global credential.helper store
+  315  ssh -T git@github.com
+  316  cd ..
+  317  ls
+  318  ssh aayushsp24@172.20.25.9
+  319  ls
+  320  git config --global user.name "eyeOosh"
+  321  git init
+  322  git config --global user.name "eyeOosh"
+  323  git coonfig --global uuser.email "aayushkumar1824@gmail.com"
+  324  git cconfig --global uuser.email "aayushkumar1824@gmail.com"
+  325  git config --global uuser.email "aayushkumar1824@gmail.com"
+  326  ls _Itr
+  327  ls -Itr
+  328  cd CS131/
+  329  git init
+  330  git add .
+  331  git status
+  332  git branch --unset-upstream
+  333  git status
+  334  git branch
+  335  git remote add origin git@github.com:eyeOosh/CS131.git
+  336  git remote remove origin
+  337  git remote add origin git@github.com:eyeOosh/CS131.git
+  338  git commit -m "message"
+  339  git push --set-upstream main
+  340  git push --set-upstream master
+  341  git push --set-upstream 
+  342  git push --set-upstream origin main
+  343  ls
+  344  exiit
+  345  exit
+  346  ping 172.20.25.9
+  347  ls
+  348  cd CS131/
+  349  ls
+  350  mkdir Assignment1
+  351  ls
+  352  cd Assignment1/
+  353  ls
+  354  echo $SHELL
+  355  echo '$SHELL'
+  356  echo "$SHELL"
+  357  echo $HOME
+  358  id
+  359  id -a
+  360  cd ..
+  361  ls
+  362  git init
+  363  git config --global uuser.email "aayushkumar1824@gmail.com"
+  364  git config --global user.email "aayushkumar1824@gmail.com"
+  365  cdd Assignment1/
+  366  ls
+  367  cd Assignment1/
+  368  ls
+  369  mkdir myDir
+  370  ls
+  371  chmod u-w myDir
+  372  ls
+  373  cd myDir/
+  374  ls
+  375  ls -l
+  376  ls -i
+  377  cat me.txt
+  378  me.txt
+  379  touch me.txt
+  380  cd ..
+  381  mkdir myDir2
+  382  mkdir myDir3
+  383  lls
+  384  ls
+  385  cd myDir2
+  386  ls
+  387  touch myyFile.txt
+  388  ls
+  389  mv myyFile.txt myDir3
+  390  ls
+  391  cd ..
+  392  ls
+  393  cd myDir3
+  394  ls
+  395  cd ..
+  396  cd myDir2
+  397  ls
+  398  rm myDir3
+  399  ls
+  400  touch myFile.txt
+  401  ls
+  402  mv myFile.txt /myDir3
+  403  cd ..
+  404  lls myDir3
+  405  ls myDir3
+  406  cd myDir3
+  407  ls
+  408  echo "$PWD/filename"
+  409  ls
+  410  cd ..
+  411  cd myDir2
+  412  ls
+  413  mv myFile.txt /mnt/scratch/SP24_CS131_Jyotika/aayushsp24/CS131/Assignment1/myDir3
+  414  ls
+  415  cd ..
+  416  cd myDir3
+  417  ls
+  418  free
+  419  free mebibytes
+  420  man free
+  421  uname -a
+  422  uname
+  423  uname -r
+  424   _rwxrwxrwx 1 owner:group
+  425  rwx
+  426  _rwx
+  427  cd ..
+  428  script
+  429  touch Assignment1.txt
+  430  sudo nano Assignment1.txt 
+  431  nano Assignment1.txt
+  432  cat Assignment1.txt 
+  433  history > cmds.log
+  434  nano cmds.log 
+  435  nano Assignment1.txt 
+  436  ls
+  437  rm typescript 
+  438  ls
+  439  cd ..
+  440  git status
+  441  git add .
+  442  git status
+  443  git commit -m "Assignment 1"
+  444  git status
+  445  git branch
+  446  git push -set--upstream origin main
+  447  git push --set-upstream origin main
+  448  vi file.txt
+  449  ls
+  450  cd CS131/
+  451  ls
+  452  cd Assignment
+  453  cd Assignment2
+  454  ls
+  455  nano Assignment2.txt 
+  456  cat Assignment2.txt 
+  457  cat history
+  458  touch history
+  459  history
+  460  ls
+  461  cd CS131/
+  462  ls
+  463  mkdir Assignment2
+  464  ls
+  465  cd Assignment2
+  466  touch Assignment2.txt
+  467  ls
+  468  cat Assignment2.txt 
+  469  cd ..
+  470  ls
+  471  cd Assignment2
+  472  find /etc -type f > one.txt 2> two.txt
+  473  ls
+  474  cat one.txt 
+  475  cd ..
+  476  cd Assignment2
+  477  touch Assignment2.txt 
+  478  vi Assignment2.txt 
+  479  cat Assignment2.txt 
+  480  cat two.txt 
+  481  nano Assignment2.txt 
+  482  cat Assignment2.txt 
+  483  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  484  cat Global\ YouTube\ Statistics.csv 
+  485  cut -d',' -f2,3 Global\ YouTube\ Statistics.csv | sed '1d' | sort > sorted_data.txt
+  486  uniq -c sorted_data.txt | sort -nr > counted_data.txt
+  487  head -n 3 counted_data.txt
+  488  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  489  cut -d',' -f2,3 "Global YouTube Statistics.csv" | sed '1d' | sort > sorted_data.txt
+  490  uniq -c sorted_data.txt | sort -nr > counted_data.txt
+  491  awk '{print $2, $3, $1}' counted_data.txt | head -n 3
+  492  cut -d',' -f21,22 "Global YouTube Statistics.csv" | sed '1d' | sort > sorted_data.txt
+  493  uniq -c sorted_data.txt | sort -nr > counted_data.txt
+  494  awk '{print $2, $3, $1}' counted_data.txt | head -n 3
+  495  whoamii
+  496  whoami
+  497  ps -u aayushsp24
+  498  pidof systemd
+  499  ps aux
+  500  cat Assignment2.txt 
+  501  cat cmds
+  502  cat cmds.log
+  503  ls
+  504  history > cmds.log
+  505  ls
+  506  cat cmds.log 
+  507  nano history
+  508  nano cmds.log
+  509  cd ..
+  510  git add .
+  511  git status
+  512  git commit -m "Aayush commit"
+  513  git status
+  514  git push --set-upstream origin main
+  515  ls
+  516  git status
+  517  ls
+  518  cd CS131/
+  519  ls
+  520  mkdir Worksheet3
+  521  ls
+  522  cd Worksheet
+  523  cd Worksheet3
+  524  ls
+  525  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  526  ls
+  527  cat Global\ YouTube\ Statistics.csv 
+  528  filtered_data=$(awk -F ',' '$8=="United States" || $8=="United Kingdom" || $8=="India" {print}' Global YouTube Statistics.csv)
+  529  sorted_data=$(echo "$filtered_data" | sort -t',' -k3 -nr)
+  530  highest_earners=$(echo "$sorted_data" | awk -F ',' '!seen[$8]++' | awk -F ',' '{print "Highest earner from " $8 ": " $2 " - $" $3}')
+  531  echo "$highest_earners"
+  532  ls
+  533  echo "$highest_earners"
+  534  grep -E 'United States|United Kingdom|India' data.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }'
+  535  ls
+  536  grep -E 'United States|United Kingdom|India' data.csv | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }'
+  537  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv 
+  538  sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }'
+  539  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }'
+  540  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '!seen[$5]++' | awk -F',' '{ print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }'
+  541  grep -E 'Sports|Education|Entertainment' data.csv |
+  542  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '!seen[$5]++ && count[$5]++ < 3' | awk -F',' '{ print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }'
+  543  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  544             $5 == "Education" && education_count < 3 { print "Highest subscribed channel in Education: " $2 " - Subscribers: " $4; education_count++ }
+  545             $5 == "Entertainment" && entertainment_count < 3 { print "Highest subscribed channel in Entertainment: " $2 " - Subscribers: " $4; entertainment_count++ }'            sports_count=0 education_count=0 entertainment_count=0
+  546  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '!seen[$5]++' | awk -F',' '{ print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }'
+  547  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  548             $5 == "Education" && education_count < 3 { print "Highest subscribed channel in Education: " $2 " - Subscribers: " $4; education_count++ }
+  549             $5 == "Entertainment" && entertainment_count < 3 { print "Highest subscribed channel in Entertainment: " $2 " - Subscribers: " $4; entertainment_count++ }'            sports_count=0 education_count=0 entertainment_count=0
+  550  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  551             $5 == "Education" && education_count < 3 { print "Highest subscribed channel in Education: " $2 " - Subscribers: " $4; education_count++ }
+  552             $5 == "Entertainment" && entertainment_count < 3 { print "Highest subscribed channel in Entertainment: " $2 " - Subscribers: " $4; entertainment_count++ }'            sports_count=0 education_count=0 entertainment_count=0 | awk '!seen[$5]++'
+  553  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }'
+  554  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }' | head -n 3
+  555  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  556             $5 == "Education" && education_count < 3 { print "Highest subscribed channel in Education: " $2 " - Subscribers: " $4; education_count++ }
+  557             $5 == "Entertainment" && entertainment_count < 3 { print "Highest subscribed channel in Entertainment: " $2 " - Subscribers: " $4; entertainment_count++ }'            sports_count=0 education_count=0 entertainment_count=0 | awk '!seen[$5]++'
+  558  ls
+  559  cd CS131/
+  560  ls
+  561  cd Worksheet3
+  562  ls
+  563             $5 == "Education" && education_count < 3 { print "Highest subscribed channel in Education: " $2 " - Subscribers: " $4; education_count++ }
+  564  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }' | head -n 3
+  565  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  566  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }' | head -n 3
+  567  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '$5 == "Sports" && sports_count < 3 { print "Highest subscribed channel in Sports: " $2 " - Subscribers: " $4; sports_count++ }
+  568  yes
+  569  twi
+  570  light
+  571  exit
+  572  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '!seen[$5]++' | awk -F',' '{ print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }'
+  573  grep -E 'Sports|Education|Entertainment' "Global YouTube Statistics.csv" | sort -t',' -k4,4nr |  awk -F',' '$5 != "" && !seen[$5]++' |  awk -F',' '$5=="Sports" || $5=="Education" || $5=="Entertainment" { print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }' 
+  574  grep -E 'Sports|Education|Entertainment' "Global YouTube Statistics.csv" | sort -t',' -k4,4nr |  awk -F',' '$5 != "" && !seen[$5]++' |  awk -F',' '$5=="Sports" || $5=="Education" || $5=="Entertainment" { print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }' > ws3.txt
+  575  ls
+  576  cat ws3.txt 
+  577  grep -E 'Sports|Education|Entertainment' Global\ YouTube\ Statistics.csv | sort -t',' -k4,4nr | awk -F',' '!seen[$5]++' | awk -F',' '{ print "Highest subscribed channel in " $5 ": " $2 " - Subscribers: " $4 }' >> ws3.txt
+  578  cat ws3.txt 
+  579  nano ws3.txt 
+  580  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }' | head -n 3
+  581  grep -E 'United States|United Kingdom|India' Global\ YouTube\ Statistics.csv | sort -t',' -k3,3nr | awk -F',' '!seen[$8]++' | awk -F',' '{ print "Highest earner from " $8 ": " $2 " - $" $3 }' | head -n 3 >> ws3.txt
+  582  cat ws3.txt 
+  583  history > cmds.log
+  584  ls
+  585  nano cmds.log 
+  586  cat cmds.log 
+  587  cd ..
+  588  git status
+  589  git add .
+  590  git statuus
+  591  git status
+  592  git commit -m "wksh3"
+  593  git push origin --set-uupstream main
+  594  git status
+  595  git push
+  596  git status
+  597  nano ~/.bash_profile
+  598  l
+  599  w
+  600  l
+  601  nano ~/.bash_profile
+  602  l
+  603  w
+  604  nano ~/.bash_profile
+  605  ls
+  606  nano ~/.bash_profile
+  607  l
+  608  ls
+  609  nano ~/.bash_profile
+  610  sl
+  611  nano ~/.bash_profile
+  612  l
+  613  ls - itr
+  614  ls
+  615  ls - ltr
+  616  ls -ltr
+  617  nano ~/.bash_profile
+  618  ls -ltr
+  619  l
+  620  nano ~/.bash_profile
+  621  I
+  622  w
+  623  nano ~/.bash_profile
+  624  I
+  625  w
+  626  nano ~/.bash_profile
+  627  a
+  628  alias
+  629  ls -l ~/.bash_profile
+  630  chmod +x ~/.bash_profile
+  631  ls -l ~/.bash_profile
+  632  alias
+  633  nano ~/.bash_profile
+  634  w
+  635  a
+  636  l
+  637  I
+  638  cat ~/.bash_profile
+  639  source ~/.bash_profile
+  640  nano ~/.bash_profile
+  641  source ~/.bash_profile
+  642  I
+  643  ls -Itr
+  644  source ~/.bash_profile
+  645  nano ~/.bash_profile
+  646  source ~/.bash_profile
+  647  I
+  648  i
+  649  I
+  650  nano ~/.bash_profile
+  651  source ~/.bash_profile
+  652  nano ~/.bash_profile
+  653  I
+  654  w
+  655  ls -l | wc
+  656  source ~/.bash_profile
+  657  w
+  658  nano ~/.bash_profile
+  659  I
+  660  source ~/.bash_profile
+  661  I
+  662  w
+  663  cat w
+  664  alias q
+  665  alias
+  666  nano ~/.bash_profile
+  667  w
+  668  I
+  669  alias
+  670  ls -l | wc -l
+  671  ls -l | wc
+  672  nano ~/.bash_profile
+  673  I
+  674  cat I
+  675  I
+  676  w
+  677  alias
+  678  ls
+  679  mkdir Worksheet4
+  680  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  681  ls
+  682  rm -rf 'Global YouTube Statistics.csv' 
+  683  ls
+  684  cd Worksheet4
+  685  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  686  ls
+  687  cat Global\ YouTube\ Statistics.csv 
+  688  ls
+  689  mkdir Subscribers
+  690  csv="Global Youtube Statistics.csv"
+  691  cat csv
+  692  csv="Global YouTube Statistics.csv" 
+  693  cat csv
+  694  csv_file="Global YouTube Statistics.csv" 
+  695  csv_file
+  696  cat csv_file
+  697  tail -n +2 "Global YouTube Statistics.csv" | while IFS=, read -r _ _ _ _ country _ _ subscribers _; do country_file="$(country// /_}.txt"
+  698  if [ "$country" == "United States" ] || [ "$country" == "India" ]; then echo "$subscribers" >> "Subscribers/$country_file"
+  699  done
+  700  echo "Subscribers for US and India have been written."
+  701  break
+  702  ls
+  703  cd Subscribers/
+  704  ls
+  705  cd ..
+  706  csv_file="Global YouTube Statistics.csv" 
+  707  tail -n +2 "$csv_file"
+  708  | while IFS=, read -r _ _ _ _ country _ _ subscribers _;
+  709  tail -n +2 "$csv_file" | while IFS=, read -r _ _ _ _ country _ _ subscribers _; do country_file=$(echo "$country" | tr ' ' '_'); echo "$subscribers" >> "Worksheet4/Subscribers/$country_file.txt"; done
+  710  ls
+  711  cd Subscribers/
+  712  ls
+  713  cd ..
+  714  tail -n +2 "$csv_file" | while IFS=, read -r _ _ _ _ country _ _ subscribers _; do country_file=$(echo "$country" | tr ' ' '_'); echo "$subscribers" > "Worksheet4/Subscribers/$country_file.txt"; done
+  715  ls
+  716  cd Subscribers/
+  717  ls
+  718  touch United_States.txt
+  719  touch India.txt
+  720  ls
+  721  tail -n +2 "$csv_file" | while IFS=, read -r _ _ _ _ country _ _ subscribers _; do     if [ -n "$country" ] && [ "$country" != "nan" ]; then         country_file=$(echo "$country" | tr ' ' '_');         echo "$subscribers" >> "Worksheet4/Subscribers/$country_file.txt";     fi; done
+  722  cd ..
+  723  ls
+  724  csv_file="Global YouTube Statistics.csv"
+  725  tail -n +2 "$csv_file" | while IFS=, read -r _ _ _ _ country _ _ subscribers _; do     if [ -n "$country" ] && [ "$country" != "nan" ]; then         country_file=$(echo "$country" | tr ' ' '_');         echo "$subscribers" >> "Worksheet4/Subscribers/$country_file.txt";     fi; done
+  726  ls
+  727  cd Subscribers/
+  728  ls
+  729  cat India.txt 
+  730  cd ..
+  731  cat Global\ YouTube\ Statistics.csv 
+  732  csv_file="Global YouTube Statistics.csv"
+  733  # Read the CSV file line by line, extracting country and subscribers
+  734  tail -n +2 "$csv_file" | while IFS=, read -r _ _ _ _ _ _ _ country _ _ _ _ _ _ _ subscribers _ _; do     if [ -n "$country" ] && [ "$country" != "nan" ]; then         country_file=$(echo "$country" | tr ' ' '_');          echo "$subscribers" >> "Subscribers/$country_file.txt";     fi; done
+  735  ls
+  736  cd Subscribers/
+  737  ls
+  738  cat I
+  739  cat India.txt
+  740  ls
+  741  find -type f
+  742  find -type f -not\( -name "United_States.txt" -o -name "India.txt" -o\) -exec rm {} +
+  743  ls
+  744  find -type f -not \( -name "United_States.txt" -o -name "India.txt" -o\) -exec rm {} +
+  745  find -type f -not \( -name "United_States.txt" -o -name "India.txt" \) -exec rm {} +
+  746  lls
+  747  ls
+  748  awk 
+  749  awk '{total += $1; count ++} END { print total / count }' Subscribers/United_States.txt > mean_US.txt
+  750  ls
+  751  cat mean_US.txt 
+  752  awk '{total += $1; count ++} END { print total / count }' United_States.txt > mean_US.txt
+  753  cat mean_US.txt 
+  754  awk '{total += $1; count ++} END { print total / count }' India.txt > mean_US.txt
+  755  awk '{total += $1; count ++} END { print total / count }' United_States.txt > mean_US.txt
+  756  awk '{total += $1; count ++} END { print total / count }' India.txt > mean_India.txt
+  757  ls
+  758  cat mean_India.txt 
+  759  paste mean_US.txt mean_India.txt > ws4_means.txt
+  760  cat ws4_means.txt 
+  761  ls
+  762  cd ..
+  763  ls
+  764  touch greetings.txt
+  765  nano greetings.txt 
+  766  cat greetings.txt 
+  767  nano greetings.txt 
+  768  cat greetings.txt 
+  769  sed -i 's/Hello/Hi/g' greetings.txt
+  770  cat greetings.txt 
+  771  sed -i '/Doe/d' greetings.txt 
+  772  cat greetings.txt 
+  773  sed -i 's/$/ (edited)/' greetings.txt 
+  774  cat greetings.txt 
+  775  sed -i '/^Hello/s/Michael Johnson/Mike Johnson/' greetings.txt 
+  776  cat greetings.txt 
+  777  ls
+  778  cd CS131/
+  779  ls
+  780  script ws4.txt
+  781  ls
+  782  cat ws4.txt 
+  783  git status
+  784  git add .
+  785  git status
+  786  git commit -m "Wksh 4"
+  787  git push origin --set-uupstream main
+  788  git push origin --set-upstream main
+  789  git status
+  790  ls
+  791  cd CS131/
+  792  ls
+  793  mkdir Assignment3
+  794  ls
+  795  ls Assignment3
+  796  ls
+  797  cd Assignment3
+  798  ls
+  799  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
+  800  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
+  801  ls
+  802  cd ..
+  803  git statis
+  804  git status
+  805  git add .
+  806  giit status
+  807  git status
+  808  git commit -m "just added files'
+  809  git commit -m "just added files"
+  810  git push
+  811  git status
+  812  ls
+  813  cd CS131/
+  814  ls
+  815  cd Assignment3
+  816  ls
+  817  awk 'END {print NR}' last.fake 
+  818  touch Assignment3.txt
+  819  nano Assignment3.txt 
+  820  awk '/sp24/' last.fake > lastsp24.fake
+  821  lls
+  822  ls
+  823  awk 'END {print NR}' lastsp24.fake
+  824  nano Assignment3.txt 
+  825  cat lastsp24.fake 
+  826  grep 'Sun' lastsp24.fake
+  827  grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq
+  828  nano Assignment3.txt 
+  829  nano Assignment3.txt
+  830  ls
+  831  awk '{split($4, a, ":"); if ((a[1] >= 23 || a[1] <= 4) && $5 ~ /still/) print $1}' lastsp24.fake | sort | uniq
+  832  awk 'if ((a[1] >= 23 && a[1] <= 4) && $5) print $1}' lastsp24.fake | sort | uniq
+  833  awk '{split($4, a, ":"); if (a[1] >= 23 || a[1] <= 4) print $1}' lastsp24.fake | sort | uniq
+  834  nano Assignment3.txt 
+  835  awk '{split($4, a, ":"); if (a[1] >= 5 && a[1] <= 9) print $1}' lastsp24.fake | sort | uniq
+  836  awk '{split($4, a, ":"); if (a[1] >= 5 || a[1] <= 9) print $1}' lastsp24.fake | sort | uniq
+  837  nano Assignment3.txt 
+  838  awk '$1 ~ /^t/' lastsp24.fake
+  839  awk '$1 ~ /^t/' lastsp24.fake | sort | uniq
+  840  awk '{print $1}' lastsp24.fake | awk '$1 ~ /^t/' | sort | uniq
+  841  nano Assignment3.txt 
+  842  ls
+  843  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+  844  nano Assignment3.txt 
+  845  ls
+  846  sed 's/[a-zA-Z0-9[:space:]]//g' passwd.fake | sort -u
+  847  nano Assignment3.txt 
+  848  history > cmds.log
+  849  nano cmds.log 
+  850  cat cmds.log 
+  851  cd ..
+  852  git status
+  853  ls
+  854  git add .
+  855  git commit -m "Assignment3"
+  856  git push
+  857  git status
+  858  ls
+  859  cd CS131/
+  860  ls
+  861  mkdir FinalProject7
+  862  ls
+  863  ccd FinalProject7/
+  864  cd FinalProject7/
+  865  ls
+  866  wget https://github.com/jonetiz/cs131/blob/master/CS131ClassProject7/spotify_top_songs_audio_features.csv
+  867  ls
+  868  awk -F',' '{print $5}' spotify_top_songs_audio_features.csv | sort | uniq -c | sort -nr
+  869  awk -F',' '{print $5}' spotify_top_songs_audio_features.csv
+  870  cat spotify_top_songs_audio_features.csv 
+  871  touch spotify.csv
+  872  ls
+  873  nano spotify.csv 
+  874  rm spotify_top_songs_audio_features.csv 
+  875  ls
+  876  awk -F',' '{print $5}' spotify.csv | sort | uniq -c | sort -nr
+  877  cat spotify.csv 
+  878  awk -F',' '{print $5}' spotify.csv | sort | uniq -c | sort -nr
+  879  awk -F',' '{print $5}' spotify.csv | sort | uniq -c
+  880  awk -F',' '{print $5}' spotify.csv | sort | uniq -c | sort 
+  881  awk -F',' '{print $5}' spotify.csv | sort | uniq -c | sort -n
+  882  ls
+  883  touch metadata.txt
+  884  nano metadata.txt 
+  885  awk -F',' '{print $7}' spotify.csv | sort | uniq -c | sort -nr
+  886  awk -F',' '$7 ~ /beats/ {print $7}' spotify.csv | sort | uniq -c | sort -nr
+  887  nano metadata.txt 
+  888  awk -F',' 'NR > 1 {print $3, $8}' spotify.csv | sort -k2,2nr | head -n 5
+  889  awk -F',' 'NR > 1 {if ($2 ~ /,/) {gsub("\"", "", $2); print $3 " (feat. " $2 "), " $8} else {print $3 ", " $8}}' spotify.csv | sort -t',' -k2,2nr | head -n 5
+  890  awk -F ', *' '{for (i=1; i<=NF; i++) print $i}' your_file.csv
+  891  awk -F ', *' '{for (i=1; i<=NF; i++) print $i}' spotify.csv
+  892  awk -F ', *' 'NR > 1 {print $7}' spotify.csv | sort -n | tail -n 5
+  893  awk -F ', *' 'NR > 1 {print $7}' spotify.csv
+  894  awk -F ', *' 'NR > 1 && $7 == "4 beats" {print $7}' spotify.csv
+  895  awk -F ', *' 'NR > 1 && $7 == "4 beats" {print $7}' spotify.csv | sort | uniq -c | sort -n
+  896  awk -F ', *' 'NR > 1 {print $7}' spotify.csv | sort | uniq -c | sort -nr
+  897  nano metadata.txt 
+  898  ls
+  899  awk -F ', *' 'NR > 1 {sum += $9} END {print "Average danceability:", sum / (NR - 1)}' spotify.csv
+  900  awk -F ',' '{print $1}' spotify.csv
+  901  awk -F ', *' 'NR > 1 {print $2}' spotify.csv
+  902  awk -F '(, *|,)' 'NR > 1 {print $2}' spotify.csv
+  903  awk -F ', *' 'NR > 1 {print $2}' spotify.csv
+  904  awk -F ',[[:alnum:]]' 'NR > 1 {print $2}' spotify.csv
+  905  awk -F ',[A-Z][a-z][0-9]' 'NR > 1 {print $2}' spotify.csv
+  906  awk -F ",[[:alnum:]]" '{print $1, $2}' input_file
+  907  awk -F ",[[:alnum:]]" '{print $1, $2}' spotify.csv
+  908  awk -F "," '{print $2}' spotify.csv
+  909  awk -F " " '{print $2}' spotify.csv
+  910  awk -F ",[[:alum]]" '{print $2}' spotify.csv
+  911  awk -F ",(?=[a-zA-Z0-9])" '{print $2}' spotify.csv
+  912  awk -F ",[a-zA-Z0-9]" '{print $2}' spotify.csv
+  913  awk -F ",[a-zA-Z0-9]" '{print}' spotify.csv
+  914  awk -F ",[a-zA-Z0-9"]" '{print}' spotify.csv
+  915  asda
+  916  awk -F ",(! )" '{print}' spotify.csv
+  917  awk -F ",(! )" '{print $2}' spotify.csv
+  918  awk -F ",(! )" '{print $1}' spotify.csv
+  919  awk -F ",(?! )" '{print $1}' spotify.csv
+  920  awk -F "," '{print $1}' spotify.csv
+  921  awk -F " ," '{print $1}' spotify.csv
+  922  awk -F ", " '{print $1}' spotify.csv
+  923  awk -F ",(?=[^ ])" '{print $1}' spotify.csv
+  924  awk -F ",(?=[^! ])" '{print $1}' spotify.csv
+  925  awk -F ", " '{print $1}' spotify.csv
+  926  awk -F "," '{print $1}' spotify.csv
+  927  awk -F "," '{print $3}' spotify.csv
+  928  awk -F ",(?! )" '{print $3}' spotify.csv
+  929  awk -F ",(?! )" '{print $1}' spotify.csv
+  930  awk -F ",(! )" '{print $1}' spotify.csv
+  931  awk -F ",! " '{print $1}' spotify.csv
+  932  awk -F ",[! ]" '{print $1}' spotify.csv
+  933  awk -F ",! ]" '{print $1}' spotify.csv
+  934  awk -F ",[ ]" '{print $1}' spotify.csv
+  935  awk -F ",[a-zA-Z0-9[""] ]" '{print $1}' spotify.csv
+  936  awk -F ",[a-zA-Z0-9]" '{print $1}' spotify.csv
+  937  awk -F ",[a-zA-Z0-9"]" '{print $1}' spotify.csv
+  938  run
+  939  q
+  940  w
+  941  awk -F ",["a-zA-Z0-9]" '{print $1}' spotify.csv
+  942  awk -F ",[""a-zA-Z0-9]" '{print $1}' spotify.csv
+  943  awk -F ", {0}]" '{print $1}' spotify.csv
+  944  awk -F ", {0}" '{print $1}' spotify.csv
+  945  awk -F ", {0}" '{print $2}' spotify.csv
+  946  awk -F ", [^ ]" '{print $2}' spotify.csv
+  947  awk -F ",[^ ]" '{print $2}' spotify.csv
+  948  awk -F ",(?[^ ])" '{print $2}' spotify.csv
+  949  awk -F ",?[^ ]" '{print $2}' spotify.csv
+  950  awk -F ",[^ ]" '{print $2}' spotify.csv
+  951  awk -F ",[^ ]" '{print $3}' spotify.csv
+  952  awk -F ",[^ ]" '{print $6}' spotify.csv
+  953  awk -F ",(?=[^ ])" '{print $6}' spotify.csv
+  954  awk -F ",(?= )" '{print $6}' spotify.csv
+  955  awk -F ",(?= )" '{print $2}' spotify.csv
+  956  awk -F ",[^ ]" '{print $2}' spotify.csv
+  957  awk -F ",(?=[^ ])" '{print $2}' spotify.csv
+  958  awk -F ',' 'NR > 1 {print $2}' spotify.csv
+  959  awk -F ',"' '{print $2}' spotify.csv
+  960  awk -F ',[^ ]' '{print $2}' spotify.csv
+  961  awk -F ',[^ ]' '{gsub(/^,/, "", $2); print $2}' spotify.csv
+  962  awk -F ',[^ ]' '{if (NF > 1) {gsub(/^,/, "", $2); print $1 "," $2} else {print $1}}' spotify.csv
+  963  awk -F ',[^ ]' '{if (NF > 1) {gsub(/^,/, "", $2); print $1 "," $2} else {prit $3}}' spotify.csv
+  964  awk -F ',(?=[^ ])' '{print $2}' spotify.csv
+  965  awk -F ',[[:alnum:]]' '{print $2}' spotify.csv
+  966  awk -F ',(?![:alnum:])' '{print $2}' spotify.csv
+  967  sed 's/,\([^[:alnum:]]\)/,\1\n/g' spotify.csv | awk -F ',' '{print $2}'
+  968  awk '{gsub(/,([[:alnum:]])/," \\1",$0); print $2}' spotify.csv
+  969  awk -F ',(?=[^ ])' '{print $2}' spotify.csv
+  970  awk -F ',[^ ]' '{print $2}' spotify.csv
+  971  awk -F ',[^ ]' '{print $3}' spotify.csv
+  972  sed -i 's/, /,/g' spotify.csv
+  973  cat spotify.csv 
+  974  ls
+  975  rm spotify.csv 
+  976  ls
+  977  touch spotify.csv
+  978  nano spotify.csv 
+  979  cat spotify.csv 
+  980  sed -i 's/, /#/g' spotify.csv
+  981  cat spotify.csv 
+  982  sed -i 's/,/, /g' spotify.csv
+  983  cat spotify.csv 
+  984  sed -i 's/#/,/g' spotify.csv
+  985  awk -F ', ' '{print $2}' spotify.csv
+  986  cat metadata.txt 
+  987  awk -F ',' '{print $5}' spotify.csv | sort | uniq -c | sort -nr | awk '{print $2 ": " $1}'
+  988  awk -F ',' '{print $5}' spotify.csv | sort | uniq -c | sort -n
+  989  cat metadata.txt 
+  990  awk -F ',' 'NR>1 {sum += $8; count++} END {print "Average Danceability:", sum/count}' spotify.csv
+  991  awk -F ', ' '{print $5}' spotify.csv | sort | uniq -c | sort -n
+  992  cd ..
+  993  ls
+  994  git statuus
+  995  git status
+  996  git add .
+  997  git commit -m "some metadata done"
+  998  git push
+  999  git status
+ 1000  awk -F ', ' '{print $5}' spotify.csv | sort | uniq -c | sort -n
+ 1001  ls
+ 1002  cd CS131/
+ 1003  ls
+ 1004  cd FinalProject7/
+ 1005  ls
+ 1006  awk -F ', ' '{print $5}' spotify.csv | sort | uniq -c | sort -n
+ 1007  awk -F ',' 'NR>1 {sum += $8; count++} END {print "Average Danceability:", sum/count}' spotify.csv
+ 1008  awk -F ', ' '{print $8}' spotify.csv | sort | uniq -c | sort -n
+ 1009  awk -F ',' 'NR>1 {sum += $8; count++} END {print "Average Danceability:", sum/count}' spotify.csv
+ 1010  awk -F ',' 'NR>1 {sum += $8; count++} END {print "Sum:", sum; print "Count:", count; print "Average Danceability:", sum/count}' spotify.csv
+ 1011  wc -l spotify.csv
+ 1012  awk -F ',' 'NR>1 && $8 < 1 {sum += $8; count++} END {if (count > 0) print "Sum:", sum, "\nCount:", count, "\nAverage Danceability:", sum/count}' spotify.csv
+ 1013  awk -F ',' 'NR>1 && $8 < 1 {sum += $8; count++} END {if (count > 0) {sum /= 3; print "Sum:", sum, "\nCount:", count, "\nAverage Danceability:", sum/count}}' spotify.csv
+ 1014  awk -F ',' 'NR>1 && $8 < 1 {sum += $8; count++} END {if (count > 0) print "Average Danceability:", sum/(count*3)}' spotify.csv
+ 1015  nano metadata.txt 
+ 1016  awk -F ',' 'NR>1 {print $3, $8}' spotify.csv | sort -k2 -nr | head -n 5
+ 1017  awk -F ',' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort -k2 -nr | head -n 5
+ 1018  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort -k2 -nr | head -n 5
+ 1019  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv
+ 1020  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort
+ 1021  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | uniq -c 
+ 1022  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | uniq -c | sort -nn
+ 1023  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | uniq -c | sort -n
+ 1024  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | uniq -c | sort -k2 -n
+ 1025  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n
+ 1026  awk -F 'NR > 1 && $8 < 1 {print $8}' | sort -k2 -n | head -n -46
+ 1027  awk -F 'NR > 1 && $8 < 1 {print $8}' spotify.csv | sort -k2 -n | head -n -46
+ 1028  awk -F 'NR > 1 && $8 < 1 {print $8}' spotify | sort -k2 -n | head -n -46
+ 1029  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n
+ 1030  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n | head -n -46
+ 1031  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n | tail -n +47 | head -n -5
+ 1032  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -nr | head -n -46
+ 1033  awk -F ',' 'NR>1 {print $3, $8}' spotify.csv | sort -t ',' -k2 -nr | tail -n +47 | head -n 5
+ 1034  awk -F ', ' 'NR>1 {print $3, $8}' spotify.csv | sort -t ',' -k2 -nr | tail -n +47 | head -n 5
+ 1035  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n | head -n -46
+ 1036  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n | head -n -46 | sort
+ 1037  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n | head -n -46 | sort -n
+ 1038  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n | head -n -46 | sort -k2 -n
+ 1039  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n | head -n -46 | sort -k2 -nr
+ 1040  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n | head -n -46 
+ 1041  awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n -5
+ 1042  nano metadata.txt 
+ 1043  awk -F ', ' 'NR>1 && $9 < 1 {sum += $9; count++} END {if (count > 0) print "Average Danceability:", sum/(count)}' spotify.csv
+ 1044  awk -F ', ' 'NR>1 && $9 < 1 {sum += $9; count++} END {if (count > 0) print "Average Energy:", sum/(count)}' spotify.csv
+ 1045  nano metadata.txt 
+ 1046  awk -F ', ' 'NR>1 && $9 < 1 {print $3, $9}' spotify.csv | sort | sort -k2 -n | tail -n -5
+ 1047  awk -F ', ' 'NR>1 && $9 < 1 {print $3, $9}' spotify.csv | sort | sort -k2 -n
+ 1048  awk -F ', ' 'NR>1 && $9 < 1 {print $3, $9}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n 5
+ 1049  nano metadata.txt 
+ 1050  cat metadata.txt 
+ 1051  awk -F ', ' 'NR>1 && $10 < 1 {sum += $10; count++} END {if (count > 0) print "Average Speechiness:", sum/(count)}' spotify.csv
+ 1052  nano metadata.txt 
+ 1053  awk -F ', ' 'NR>1 && $10 < 1 {print $3, $10}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n 5
+ 1054  nano metadata.txt 
+ 1055  awk -F ', ' 'NR>1 && $15 < 1 {sum += $15; count++} END {if (count > 0) print "Average Loudness:", sum/(count)}' spotify.csv
+ 1056  nano metadata.txt 
+ 1057  awk -F ', ' 'NR>1 && $16 < 1 {sum += $16; count++} END {if (count > 0) print "Average Tempo:", sum/(count)}' spotify.csv
+ 1058  awk -F ', ' 'NR>1 && {print $16}' spotify.csv 
+ 1059  awk -F ', ' 'NR>1 {print $16}' spotify.csv 
+ 1060  awk -F ', ' 'NR>1 {sum += $16; count++} END {if (count > 0) print "Average Tempo:, sum/(count)}' spotify.csv 
+ 1061  awk -F ', ' 'NR>1 {sum += $16; count++} END {if (count > 0) print "Average Tempo:", sum/(count)}' spotify.csv 
+ 1062  nano metadata.txt 
+ 1063  cat metadata.txt 
+ 1064  awk -F ', ' 'NR>1 {sum += $17; count++} END {if (count > 0) print "Average Duration:", sum/(count)}' spotify.csv 
+ 1065  nano metadata.txt 
+ 1066  awk -F ', ' 'NR>1 && $18 < 1 {print $3, $18}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n 5
+ 1067  awk -F ', ' 'NR>1 {print $3, $18}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n 5
+ 1068  nano metadata.txt 
+ 1069  awk -F ', ' 'NR>1 {print $3, $19}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n 5
+ 1070  nano metadata.txt 
+ 1071  ls
+ 1072  cat metadata.txt 
+ 1073  cat history
+ 1074  history > cmds.log
+ 1075  cat cmds.log 
+ 1076  awk -F',' '{print $5}' spotify.csv | sort | uniq -c | sort -n
+ 1077  awk -F',' '{print $5}' spotify.csv | sort | uniq -c | sort -n | tail -n 7
+ 1078  nano metadata.txt 
+ 1079  awk -F ', ' '{print $5}' spotify.csv | sort | uniq -c | sort -n
+ 1080  cat metadata.txt 
+ 1081  awk -F',' '$7 ~ /beats/ {print $7}' spotify.csv | sort | uniq -c | sort -nr
+ 1082  awk -F', ' '$7 ~ /beats/ {print $7}' spotify.csv | sort | uniq -c | sort -nr
+ 1083  nano metadata.txt 
+ 1084  cat metadata.txt 
+ 1085  ls
+ 1086  cd ..
+ 1087  cs FinalProject7/
+ 1088  cd FinalProject7/
+ 1089  ls
+ 1090  history > cmds.log 

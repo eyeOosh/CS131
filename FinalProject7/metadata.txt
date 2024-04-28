@@ -1,4 +1,6 @@
 1. Keys of tracks (from least to most common)
+awk -F',' '{print $5}' spotify.csv | sort | uniq -c | sort -n | tail -n 7
+
     106 D#/Eb
     256 E
     257 F#/Gb
@@ -12,40 +14,99 @@
     401 C
     476 C#/Db
 
+___
 2. Time signatures (from most to least common)
-     3213 4 beats
-     205 3 beats
-     59 5 beats
+awk -F', ' '$7 ~ /beats/ {print $7}' spotify.csv | sort | uniq -c | sort -nr
 
+   6055 4 beats
+    324 3 beats
+    107 5 beats
+
+
+___
 3. Top 5 most dancalbe tracks
+awk -F ', ' 'NR>1 && $8 < 1 {print $3, $8}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n -5
 
+Peru 0.956
+CAIRO 0.957
+Verdansk 0.961
+Freaky 0.966
+Baby 0.97
 
+___
 4. Average dancability of tracks
+awk -F ',' 'NR>1 && $8 < 1 {sum += $8; count++} END {if (count > 0) print "Average Danceability:", sum/(count*3)}' spotify.csv
 
+Average Danceability: 0.705891
 
+___
 5. Top 5 tracks with the most energy
+awk -F ', ' 'NR>1 && $9 < 1 {print $3, $9}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n 5
 
+Promiscuous 0.97
+Confess 0.971
+PLEBADA 0.976
+Faint 0.978
+PLEBADA 0.988
 
+___
 6. Average energy of tracks
+awk -F ', ' 'NR>1 && $9 < 1 {sum += $9; count++} END {if (count > 0) print "Average Energy:", sum/(count)}' spotify.csv
 
-
+Average Energy: 0.636539
+___
 7. Top 5 tracks in speechiness
+awk -F ', ' 'NR>1 && $10 < 1 {print $3, $10}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n 5
+
+Flowers 0.611
+DUCKWORTH. 0.615
+"10 0.63
+ATM 0.649
+Skit 0.884
 
 
+___
 8. Average speechiness of tracks
+awk -F ', ' 'NR>1 && $10 < 1 {sum += $10; count++} END {if (count > 0) print "Average Speechiness:", sum/(count)}' spotify.csv
 
+Average Speechiness: 0.122067
 
+___
 9. Average loudness of tracks
+awk -F ', ' 'NR>1 && $15 < 1 {sum += $15; count++} END {if (count > 0) print "Average Loudness:", sum/(count)}' spotify.csv
 
+Average Loudness: -6.35121
 
+___
 10. Average tempo of tracks
+awk -F ', ' 'NR>1 {sum += $16; count++} END {if (count > 0) print "Average Tempo:", sum/(count)}' spotify.csv 
 
+Average Tempo: 122.073
 
+___
 11. Average duration of tracks
+awk -F ', ' 'NR>1 {sum += $17; count++} END {if (count > 0) print "Average Duration:", sum/(count)}' spotify.csv 
 
+Average Duration: 202494
 
+___
 12. Top 5 songs that have been on the charts longest
+awk -F ', ' 'NR>1 {print $3, $18}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n 5
+
+traitor 78
+Location 79
+positions 79
+Unforgettable 80
+Yonaguni 83
 
 
+___
 13. Top 5 songs that have the most streams
+awk -F ', ' 'NR>1 {print $3, $19}' spotify.csv | sort | sort -k2 -n | head -n -46 | tail -n 5
+
+SNAP 704792559
+FRIENDS 714909410
+cardigan 720473756
+Dynamite 724728961
+Photograph 739585105
 
